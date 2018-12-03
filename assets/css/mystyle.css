@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Fira Sans', sans-serif;
+	margin:0;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.vectrum__intro {
+	background-image: url(../images/bkg-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 750px;
+	padding: 0 10vw;
+}
+
+.vectrum__intro h1 {
+	color: #fff;
+	padding-top: 230px;
+	font-size: 1.4em;
+}
+
+.solucion__section {
+	padding: 30px 10vw;
+	margin-top: 30px;
+}
+
+.solucion__article {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.solucion__article h2 {
+	text-transform: uppercase;
+}

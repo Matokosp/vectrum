@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media (min-width: 950px) {
+
+.vectrum__intro {
+	background-image: url(../images/bkg-1-1000.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 759px;
+	padding: 0 25vw;
+}
+
+.vectrum__intro h1 {
+	padding-top: 330px;
+	font-size: 1.6em;
+}
+
+}
