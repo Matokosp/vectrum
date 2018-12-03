@@ -16,4 +16,34 @@
 	font-size: 1.8em;
 }
 
+.solucion__section {
+	padding: 250px 10vw;
+}
+
+.solucion__article {
+	padding: 0 35px;
+}
+
+.suministros__diagrama-img, .suministros__diagrama-img--768, .suministros__diagrama-img--1000 {
+	display: none;
+}
+
+.suministros__diagrama-img--1440 {
+	display: inline-block;
+}
+
+.contacto__section {
+	background-image: url(../images/bkg-2-1440.jpg);
+	height: 1014px;
+}
+
+.contacto__section h2 {
+	padding-top: 500px;
+	font-size: 3.2em;
+}
+
+.contacto__section p {
+	font-size: 2.3em;
+}
+
 }

@@ -1,4 +1,6 @@
-var menuHideShow = $('.nav-menu-res').children(".menu-hide").hasClass('show');
+// MENU
+
+	var menuHideShow = $('.nav-menu-res').children(".menu-hide").hasClass('show');
 
 	function desplazar (){
 		$('.menu-hide').toggleClass('show');
@@ -25,3 +27,32 @@ var menuHideShow = $('.nav-menu-res').children(".menu-hide").hasClass('show');
 		}		
 		console.log(e.target)
 	})
+
+// SCROLL
+
+	var first = 'quienes_somos';
+	var second = 'solucion';
+	var third = 'quienes_somos';
+	var fourth = 'suministros';
+	var fifth = 'contacto';
+
+	function scrollToAnchor(aid){
+	    var aTag = $("a[id='"+ aid +"']");
+	    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+	}
+
+	$("#firstSect").click(function() {
+	   scrollToAnchor(first);
+	});
+	$("#secondSect").click(function() {
+	   scrollToAnchor(second);
+	});
+	$("#thirdSect").click(function() {
+	   scrollToAnchor(third);
+	});
+	$("#fourthSect").click(function() {
+	   scrollToAnchor(fourth);
+	});
+	$("#fifthSect").click(function() {
+	   scrollToAnchor(fifth);
+	});

@@ -34,8 +34,8 @@ a {
 
 .vectrum__intro h1 {
 	color: #fff;
-	padding-top: 230px;
-	font-size: 1.4em;
+	padding-top: 220px;
+	font-size: 1.3em;
 }
 
 .solucion__section {
@@ -45,9 +45,52 @@ a {
 
 .solucion__article {
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 
 .solucion__article h2 {
 	text-transform: uppercase;
+}
+
+.solucion__article-separation {
+	background-color: #000;
+	height: 3px;
+	width: 40px;
+	margin: 20px auto 0 auto;
+}
+
+.solucion__article img {
+	height: 90px;
+}
+
+.suministros__section {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.suministros__diagrama img {
+	max-width: 100%;
+}
+
+.suministros__diagrama-img--768, .suministros__diagrama-img--1000, .suministros__diagrama-img--1440 {
+	display: none;
+}
+
+.contacto__section {
+	text-align: center;
+	background-image: url(../images/bkg-2.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 602px;
+}
+
+.contacto__section h2 {
+	padding-top: 240px;
+	color: #fff;
+}
+
+.contacto__section p {
+	color: #fff;
+	font-size: 1.2em;
 }

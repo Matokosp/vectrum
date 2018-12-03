@@ -11,4 +11,25 @@
 	padding: 0 20vw;
 }
 
+.suministros__diagrama-img, .suministros__diagrama-img--1000, .suministros__diagrama-img--1440 {
+	display: none;
+}
+
+.suministros__diagrama-img--768 {
+	display: inline-block;
+}
+
+.contacto__section {
+	background-image: url(../images/bkg-2-768.jpg);
+	height: 482px;
+}
+
+.contacto__section h2 {
+	padding-top: 180px;
+}
+
+.contacto__section p {
+	font-size: 1.3em;
+}
+
 }
