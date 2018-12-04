@@ -29,19 +29,20 @@ a {
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 750px;
-	padding: 0 5vw;
+	padding: 0 9vw;
 	text-align: center;
 }
 
 .vectrum__intro h1 {
 	color: #fff;
 	font-size: 1.1em;
-	text-align: left;
+	text-align: center;
+	padding-top: 80px;
 }
 
 .vectrum__intro-logo {
 	width: 230px;
-	padding-top: 190px;
+	padding-top: 130px;
 	margin-bottom: 20px;
 }
 

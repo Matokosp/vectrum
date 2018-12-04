@@ -8,6 +8,10 @@
 	padding: 0 20vw;
 }
 
+.vectrum__intro-logo {
+	padding-top: 90px;
+}
+
 .suministros__diagrama-img, .suministros__diagrama-img--1000, .suministros__diagrama-img--1440 {
 	display: none;
 }
