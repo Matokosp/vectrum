@@ -38,19 +38,19 @@ a[x-apple-data-detectors] {
 	background-repeat: no-repeat;
 	background-position: center center;
 	height: 750px;
-	padding: 0 10vw;
+	padding: 0 5vw;
 	text-align: center;
 }
 
 .vectrum__intro h1 {
 	color: #fff;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: left;
 }
 
 .vectrum__intro-logo {
 	width: 230px;
-	padding-top: 180px;
+	padding-top: 190px;
 	margin-bottom: 20px;
 }
 
