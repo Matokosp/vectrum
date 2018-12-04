@@ -4,9 +4,6 @@
 
 .vectrum__intro {
 	background-image: url(../images/bkg-1-1440.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	height: 1015px;
 	padding: 0 30vw;
 }
@@ -17,7 +14,7 @@
 }
 
 .solucion__section {
-	padding: 250px 10vw;
+	padding: 220px 10vw 150px 10vw;
 }
 
 .solucion__article {
@@ -44,6 +41,20 @@
 
 .contacto__section p {
 	font-size: 2.3em;
+}
+
+.footer__section {
+	padding: 10px 60px;
+}
+
+
+.footer__section img {
+	width: 150px;
+}
+
+.footer__section span {
+	font-size: 1.2em;
+	padding: 5px 0;
 }
 
 }

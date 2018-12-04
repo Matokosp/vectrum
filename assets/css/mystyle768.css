@@ -4,9 +4,6 @@
 
 .vectrum__intro {
 	background-image: url(../images/bkg-1-768.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	height: 602px;
 	padding: 0 20vw;
 }

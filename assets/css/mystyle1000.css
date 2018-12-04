@@ -4,11 +4,9 @@
 
 .vectrum__intro {
 	background-image: url(../images/bkg-1-1000.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
 	height: 759px;
 	padding: 0 25vw;
+	margin-top: 70px;
 }
 
 .vectrum__intro h1 {
@@ -16,8 +14,12 @@
 	font-size: 1.6em;
 }
 
+.vectrum__intro-logo {
+	display: none;
+}
+
 .solucion__section {
-	padding: 30px 5vw;
+	padding: 40px 5vw 30px 5vw;
 }
 
 .solucion__article {
@@ -32,6 +34,16 @@
 	text-transform: uppercase;
 	margin-top: 20px;
 	font-size: 1.3em;
+}
+
+.solucion__desc {
+	padding: 0 10vw;
+	padding: 0 20vw 30px 20vw;
+}
+
+.solucion__section h3 {
+	font-size: 1.7em;
+	font-weight: 500;
 }
 
 .suministros__section {
@@ -60,6 +72,27 @@
 
 .contacto__section p {
 	font-size: 1.7em;
+}
+
+.footer__section {
+	text-align: left;
+	padding: 10px 40px;
+}
+
+
+.footer__section img {
+	width: 120px;
+	padding: ;
+	vertical-align: middle;
+}
+
+.footer__section span {
+	display: inline-block;
+	float: right;
+	font-size: 1.1em;
+	color: #fff;
+	vertical-align: middle;
+	padding: 5px 0;
 }
 
 }

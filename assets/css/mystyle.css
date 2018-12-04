@@ -30,12 +30,19 @@ a {
 	background-position: center center;
 	height: 750px;
 	padding: 0 10vw;
+	text-align: center;
 }
 
 .vectrum__intro h1 {
 	color: #fff;
-	padding-top: 220px;
-	font-size: 1.3em;
+	font-size: 1.2em;
+	text-align: left;
+}
+
+.vectrum__intro-logo {
+	width: 230px;
+	padding-top: 180px;
+	margin-bottom: 20px;
 }
 
 .solucion__section {
@@ -50,6 +57,7 @@ a {
 
 .solucion__article h2 {
 	text-transform: uppercase;
+	color: #7ea533;
 }
 
 .solucion__article-separation {
@@ -61,6 +69,24 @@ a {
 
 .solucion__article img {
 	height: 90px;
+}
+
+.solucion__desc {
+	padding: 0 10vw;
+	text-align: center;
+}
+
+.solucion__section h3 {
+	text-align: center;
+	color: #265f71;	
+	font-weight: 500;
+}
+
+.solucion__desc-separation {
+	height: 6px;
+	width: 100px;
+	background-color: #265f71;
+	display: inline-block;
 }
 
 .suministros__section {
@@ -93,4 +119,24 @@ a {
 .contacto__section p {
 	color: #fff;
 	font-size: 1.2em;
+}
+
+.footer__section {
+	background-color: #174651;
+	text-align: center;
+	padding:10px 0;
+}
+
+.footer__section img {
+	width: 80px;
+	padding: ;
+	vertical-align: middle;
+}
+
+.footer__section span {
+	display: block;
+	font-size: 0.8em;
+	color: #fff;
+	vertical-align: middle;
+	padding: 10px 0;
 }
