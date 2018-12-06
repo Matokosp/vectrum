@@ -44,17 +44,65 @@
 }
 
 .footer__section {
-	padding: 10px 60px;
+	background-color: #174651;
+	text-align: left;
+	padding:15px 0;
 }
 
+.footer_1 {
+	padding: 0 0 0 0vw;
+	display: inline-block;
+	vertical-align: middle;
+	width: 32%;
+	box-sizing: border-box;
+	text-align: center;
+}
 
-.footer__section img {
-	width: 150px;
+.footer__logo {
+	width: 150px;	
+	margin: 0 auto;
+}
+
+.footer_2 {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.footer__location-icon {
+	width: 20px;
+	margin-top: 0px;
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+.footer__section p {
+	font-size: 0.9em;
+	width: auto;
+	text-align: left;
+	margin: 0 auto;
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.footer_3 {
+	display: inline-block;
+	vertical-align: middle;
+	width: 32%;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .footer__section span {
-	font-size: 1.2em;
-	padding: 5px 0;
+	display: inline-block;
+	font-size: 0.9em;
+	color: #fff;
+	vertical-align: top;
+	padding: 0;
 }
+
 
 }
