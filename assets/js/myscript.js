@@ -7,10 +7,10 @@
 		$('#hamburger').toggleClass('hamburguer-slide');
 	}
 
-	function esconder (e){		
-		$('.menu-hide').removeClass('show');
-		$('#hamburger').removeClass('hamburguer-slide');
-	}
+	// function esconder (e){		
+	// 	$('.menu-hide').removeClass('show');
+	// 	$('#hamburger').removeClass('hamburguer-slide');
+	// }
 
 	$('#hamburger').on('click', function(e){		
 		desplazar();
